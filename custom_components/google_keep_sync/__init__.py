@@ -42,7 +42,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         _LOGGER,
         name="Google Keep",
         update_method=async_update_data,
-        update_interval=timedelta(minutes=15),
+        update_interval=timedelta(minutes=1),
     )
 
     # Start the data update coordinator
