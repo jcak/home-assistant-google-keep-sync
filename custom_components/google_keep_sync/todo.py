@@ -20,7 +20,7 @@ from homeassistant.helpers.update_coordinator import (
 from .api import GoogleKeepAPI
 from .const import DOMAIN
 
-SCAN_INTERVAL = timedelta(minutes=15)
+SCAN_INTERVAL = timedelta(minutes=1)
 
 _LOGGER = logging.getLogger(__name__)
 
